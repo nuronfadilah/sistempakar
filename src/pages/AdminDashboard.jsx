@@ -1,7 +1,7 @@
 // src/pages/AdminDashboard.jsx
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { supabase } from '../services/supabase';
+import { supabase } from '../services/supabase.js';
 import NavbarAdmin from '../components/NavbarAdmin';
 import Header from '../components/Header';
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';

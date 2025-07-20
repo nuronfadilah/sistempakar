@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom' // Pakai dari react-router-dom
-import { supabase } from '../services/supabase'
+import { supabase } from '../services/supabase.js'
 import NavbarAdmin from '../components/NavbarAdmin';
 import '../styles/KondisiPage.css'
 

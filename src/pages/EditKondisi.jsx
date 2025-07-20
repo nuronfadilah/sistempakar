@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom' // ✅ ganti ke react-router-dom
-import { supabase } from '../services/supabase'
+import { supabase } from '../services/supabase.js'
 import '../styles/EditKondisi.css'
 import Navbar from '../components/Navbar';
 

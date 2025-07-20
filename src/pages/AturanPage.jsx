@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { supabase } from '../services/supabase';
+import { supabase } from '../services/supabase.js';
 import NavbarAdmin from '../components/NavbarAdmin';
 import '../styles/AturanPage.css';
 

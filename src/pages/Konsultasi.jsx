@@ -1,8 +1,8 @@
 
 import { useEffect, useState } from 'react';
-import '../styles/konsultasi.css';
+import '../styles/Konsultasi.css';
 import Navbar from '../components/Navbar';
-import { supabase } from '../services/supabase';
+import { supabase } from '../services/supabase.js';
 
 function Konsultasi() {
   const [step, setStep] = useState(0);

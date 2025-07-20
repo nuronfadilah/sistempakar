@@ -1,7 +1,7 @@
 // src/pages/admin/AturanForm.jsx
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { supabase } from '../services/supabase'
+import { supabase } from '../services/supabase.js';
 import NavbarAdmin from '../components/NavbarAdmin';
 import '../styles/AturanForm.css'; // ⬅️ tambahkan ini
 
