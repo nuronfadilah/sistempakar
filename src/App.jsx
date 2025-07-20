@@ -1,6 +1,6 @@
 import './App.css'
 import AdminDashboard from './pages/AdminDashboard'
-import Home from './pages/Home'
+import Home from './pages/home'
 import KondisiPage from './pages/KondisiPage'
 import Konsultasi from './pages/Konsultasi'
 import Login from './pages/Login'
