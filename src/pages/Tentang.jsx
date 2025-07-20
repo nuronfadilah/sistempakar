@@ -8,7 +8,7 @@ const Tentang = () => {
     <>
     <Navbar />
     <div className="tentang-container">
-      <h2 className="tentang-title">Tentang Sistem Pakar Waris Islam</h2>
+      <h2 className="tentang-title">Tenntang Sistem Pakar Waris Islam</h2>
       <p className="tentang-deskripsi">
         Sistem Pakar Waris Islam adalah sebuah platform berbasis web yang dirancang untuk membantu umat Islam dalam menentukan ahli waris dan pembagian harta warisan berdasarkan prinsip-prinsip faraidh sesuai dengan hukum Islam. Dengan memanfaatkan pendekatan kecerdasan buatan dan aturan syariah yang berlaku, sistem ini memberikan hasil perhitungan yang akurat, cepat, dan mudah dipahami oleh masyarakat umum.
       </p>
