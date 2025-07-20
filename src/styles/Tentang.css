@@ -1,0 +1,26 @@
+.tentang-container {
+  max-width: 900px;
+  margin-left: 200px;
+ 
+  padding: 40px;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+}
+
+.tentang-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #065f46;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tentang-deskripsi {
+  font-size: 1.1rem;
+  color: #374151;
+  margin-bottom: 20px;
+  text-align: justify;
+}

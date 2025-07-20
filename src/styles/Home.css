@@ -1,0 +1,149 @@
+/* Layout utama halaman */
+.home-container {
+  margin-left: 250px; /* sesuai sidebar */
+  margin-top: 10px;  /* sesuai navbar */
+  padding: 20px 40px;
+  background-color: #f9fafb;
+  min-height: calc(100vh - 100px);
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+/* Hero section */
+.hero-section {
+  background-color: #d1fae5;
+  border-radius: 20px;
+  padding: 15px 10px;
+  text-align: center;
+  margin-bottom: -10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.hero-section h1 {
+  font-size: 2.8rem;
+  color: #065f46;
+  margin-bottom: 20px;
+}
+
+.hero-section h1 span {
+  color: #047857;
+}
+
+.hero-section p {
+  font-size: 1.1rem;
+  color: #374151;
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.cta-button {
+  background-color: #10b981;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #059669;
+}
+
+/* Fitur unggulan */
+.features-section {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.features-section h2 {
+  font-size: 2rem;
+  color: #065f46;
+  margin-bottom: 30px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  padding: 0 10px;
+}
+
+.feature-card {
+  background-color: #ecfdf5;
+  border-left: 6px solid #10b981;
+  border-radius: 16px;
+  padding: 1px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+}
+
+.feature-card h3 {
+  font-size: 1.2rem;
+  color: #047857;
+  margin-bottom: 12px;
+}
+
+.feature-card p {
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+/* Footer */
+.home-footer {
+  text-align: center;
+  padding: 10px 10px 20px;
+  background-color: #e5e7eb;
+  border-radius: 16px;
+  margin-top: 40px;
+  font-size: 0.95rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 10px 0 20px;
+}
+
+.social-icons a {
+  color: #065f46;
+  font-size: 1.2rem;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #10b981;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+  .home-container {
+    margin-left: 0;
+    margin-top: 80px;
+    padding: 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .features-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .feature-card {
+    text-align: center;
+  }
+}

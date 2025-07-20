@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-wrapper {
+  display: flex;
+  width: 900px;
+  max-width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.register-left {
+  flex: 1;
+  padding: 40px 50px;
+}
+
+.register-right {
+  flex: 1;
+  background-color: #4f79ff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.register-form h2 {
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #333;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 20px 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.input-group .icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #888;
+}
+
+.register-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4f79ff;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-button:hover {
+  background-color: #3a5fd9;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.social-text {
+  margin: 20px 0 10px;
+  color: #555;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.social-icons i {
+  width: 35px;
+  height: 35px;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.social-icons i:hover {
+  background-color: #ddd;
+}
+
+.register-right h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.register-right p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.login-button {
+  padding: 10px 25px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.login-button:hover {
+  background-color: white;
+  color: #4f79ff;
+}

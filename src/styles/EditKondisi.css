@@ -1,0 +1,62 @@
+.edit-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  margin-left: 240px; /* beri ruang karena ada sidebar */
+  background-color: #f9fafb; /* latar belakang terang */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.edit-container h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #111827; /* abu tua */
+  margin-bottom: 1.5rem;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.edit-form label {
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+  color: #1f2937;
+}
+
+.edit-form input,
+.edit-form select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  background-color: #ffffff;
+  font-size: 0.95rem;
+  color: #111827;
+  transition: border-color 0.3s;
+}
+
+.edit-form input:focus,
+.edit-form select:focus {
+  outline: none;
+  border-color: #6ee7b7; /* hijau pastel */
+  box-shadow: 0 0 0 2px #a7f3d0;
+}
+
+.edit-form button {
+  background-color: #2563eb; /* biru deep */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-form button:hover {
+  background-color: #1e40af; /* biru lebih gelap */
+}

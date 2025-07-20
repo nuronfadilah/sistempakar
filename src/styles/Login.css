@@ -1,0 +1,126 @@
+/* login.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #d7d2cc, #304352);
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  width: 800px;
+  height: 480px;
+  background: #fff;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-side {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-side h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.form-side form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-side input {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.form-side button {
+  padding: 12px;
+  margin-top: 10px;
+  background: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.form-side button:hover {
+  background: #3367d6;
+}
+
+.social-login {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icons button {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.icons button:hover {
+  background-color: #eee;
+}
+
+.welcome-side {
+  flex: 1;
+  background: #4285f4;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 50% 100%;
+  border-bottom-left-radius: 50% 100%;
+  padding: 40px;
+}
+
+.welcome-side h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.outline-btn {
+  margin-top: 20px;
+  background: transparent;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.outline-btn:hover {
+  background: white;
+  color: #4285f4;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

@@ -1,0 +1,105 @@
+.container {
+  margin-left: 240px; /* Agar tidak tabrakan dengan sidebar */
+  margin-top: 150px;
+  padding: 40px 90px;
+  background-color: #f9fafb; /* Abu muda */
+  min-height: 100vh;
+  color: #111827;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #065f46; /* Hijau gelap */
+}
+
+.add-button {
+  display: inline-block;
+  background-color: #6ee7b7; /* Hijau pastel */
+  color: #065f46;
+  padding: 10px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #34d399;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  font-size: 0.9rem;
+}
+
+.table th,
+.table td {
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table th {
+  background-color: #f3f4f6;
+  color: #374151;
+  font-weight: 600;
+}
+
+.table tbody tr:hover {
+  background-color: #f0fdf4;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.action-link {
+  color: #0f766e;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.action-link:hover {
+  color: #064e3b;
+  text-decoration: underline;
+}
+
+.delete-button {
+  background-color: #f87171;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #ef4444;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 20px;
+  color: #6b7280;
+  font-style: italic;
+}
+
