@@ -1,7 +1,6 @@
-import React from 'react';
-import Navbar from './Navbar';
+
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';
-import { useNavigate } from 'react-router-dom';
+
 
 import '../styles/Header.css';
 

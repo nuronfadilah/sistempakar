@@ -1,4 +1,4 @@
-import React from 'react';
+
 import '../styles/Tentang.css';
 import Navbar from '../components/Navbar';
 
